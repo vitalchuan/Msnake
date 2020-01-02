@@ -1,13 +1,12 @@
 package Msnake;
 
 import javax.imageio.ImageIO;
+import javax.sound.sampled.*;
 import javax.swing.*;
-import javax.xml.crypto.dsig.keyinfo.KeyValue;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.IOException;
 import java.io.InputStream;
-import java.security.Key;
 import java.util.Random;
 
 public class MPanel extends JPanel implements KeyListener, ActionListener
@@ -31,6 +30,9 @@ public class MPanel extends JPanel implements KeyListener, ActionListener
     Random rand = new Random();
     int score;
 
+    //背景音乐
+    Clip bgm;
+
     public MPanel()
     {
         loadImages();
@@ -38,6 +40,7 @@ public class MPanel extends JPanel implements KeyListener, ActionListener
         this.setFocusable(true);
         this.addKeyListener(this);
         timer.start();
+        loadBGM();
     }
 
     public void paintComponent(Graphics g)
@@ -110,8 +113,15 @@ public class MPanel extends JPanel implements KeyListener, ActionListener
                 isFailed = false;
                 initSnake();
                 isStarted = true;
-            } else isStarted = !isStarted;
+                playBGM();
+            } else
+            {
+                if(isStarted) stopBGM();
+                else playBGM();
+                isStarted = !isStarted;
+            }
             repaint();
+
         } else if (KeyCode == KeyEvent.VK_LEFT)
             Fx = "L";
         else if (KeyCode == KeyEvent.VK_RIGHT)
@@ -160,7 +170,11 @@ public class MPanel extends JPanel implements KeyListener, ActionListener
             for (int i = 1; i < len; i++)
             {
                 if (snakex[i] == snakex[0] && snakey[i] == snakey[0])
+                {
                     isFailed = true;
+                    stopBGM();
+                }
+
             }
             repaint();
         }
@@ -173,24 +187,47 @@ public class MPanel extends JPanel implements KeyListener, ActionListener
         InputStream is;
         try
         {
-            is = getClass().getClassLoader().getResourceAsStream("title.jpg");
+            is = getClass().getClassLoader().getResourceAsStream("image/title.jpg");
             title = new ImageIcon(ImageIO.read(is));
-            is = getClass().getClassLoader().getResourceAsStream("body.png");
+            is = getClass().getClassLoader().getResourceAsStream("image/body.png");
             body = new ImageIcon(ImageIO.read(is));
-            is = getClass().getClassLoader().getResourceAsStream("up.png");
+            is = getClass().getClassLoader().getResourceAsStream("image/up.png");
             up = new ImageIcon(ImageIO.read(is));
-            is = getClass().getClassLoader().getResourceAsStream("down.png");
+            is = getClass().getClassLoader().getResourceAsStream("image/down.png");
             down = new ImageIcon(ImageIO.read(is));
-            is = getClass().getClassLoader().getResourceAsStream("left.png");
+            is = getClass().getClassLoader().getResourceAsStream("image/left.png");
             left = new ImageIcon(ImageIO.read(is));
-            is = getClass().getClassLoader().getResourceAsStream("right.png");
+            is = getClass().getClassLoader().getResourceAsStream("image/right.png");
             right = new ImageIcon(ImageIO.read(is));
-            is = getClass().getClassLoader().getResourceAsStream("food.png");
+            is = getClass().getClassLoader().getResourceAsStream("image/food.png");
             food = new ImageIcon(ImageIO.read(is));
         } catch (IOException e)
         {
             e.printStackTrace();
         }
+    }
 
+    private void loadBGM()
+    {
+        try
+        {
+            bgm = AudioSystem.getClip();
+            InputStream is = this.getClass().getClassLoader().getResourceAsStream("sound/steinsgate.wav");
+            AudioInputStream ais = AudioSystem.getAudioInputStream(is);
+            bgm.open(ais);
+        } catch (LineUnavailableException | UnsupportedAudioFileException | IOException e)
+        {
+            e.printStackTrace();
+        }
+    }
+
+    private void playBGM()
+    {
+        bgm.loop(Clip.LOOP_CONTINUOUSLY);
+    }
+
+    private void stopBGM()
+    {
+        bgm.stop();
     }
 }
