@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="44c262cb-37e4-4dce-95b1-f6a3c1fa93b5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/snake.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/snake1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Msnake.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/snake_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/snake/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/snake/Msnake/MPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/snake/Msnake/Msnake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/snake/image/body.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/snake/image/down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/snake/image/food.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/snake/image/left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/snake/image/right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/snake/image/title.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/snake/image/up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/snake/sound/steinsgate.wav" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1VyPK2Iln3bmFp0Wli04oIbbeck" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Msnake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Msnake.Msnake" />
+      <module name="Msnake" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Msnake.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Msnake" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44c262cb-37e4-4dce-95b1-f6a3c1fa93b5" name="Default Changelist" comment="" />
+      <created>1578222293470</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578222293470</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="183" key="#Project_Structure" timestamp="1578222397716">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="183" key="#Project_Structure/0.0.1920.1050@0.0.1920.1050" timestamp="1578222397716" />
+    <state x="810" y="414" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578225045616">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="810" y="414" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1578225045616" />
+    <state x="540" y="180" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1578225042944">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="540" y="180" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1578225042944" />
+    <state x="806" y="364" key="FileChooserDialogImpl" timestamp="1578225040335">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="806" y="364" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1578225040335" />
+    <state width="1877" height="342" key="GridCell.Tab.0.bottom" timestamp="1578225101272">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="342" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1578225101272" />
+    <state width="1877" height="342" key="GridCell.Tab.0.center" timestamp="1578225101272">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="342" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1578225101272" />
+    <state width="1877" height="342" key="GridCell.Tab.0.left" timestamp="1578225101272">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="342" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1578225101272" />
+    <state width="1877" height="342" key="GridCell.Tab.0.right" timestamp="1578225101272">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="342" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578225101272" />
+    <state x="461" y="167" key="SettingsEditor" timestamp="1578225148418">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="167" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1578225148418" />
+  </component>
+</project>

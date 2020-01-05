@@ -1,28 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="snake.jar" />
-    </artifacts-to-build>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="87f1c7db-2637-44a4-bda3-71e0df62b493" name="Default Changelist" comment="" />
+    <list default="true" id="44c262cb-37e4-4dce-95b1-f6a3c1fa93b5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/snake.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/snake1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Msnake.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/snake_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/snake/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/snake/Msnake/MPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/snake/Msnake/Msnake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/snake/image/body.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/snake/image/down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/snake/image/food.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/snake/image/left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/snake/image/right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/snake/image/title.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/snake/image/up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/snake/sound/steinsgate.wav" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="snake" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectId" id="1VpNVVbkLETMaWd7DYdzqE62NPU" />
+  <component name="ProjectId" id="1VyPK2Iln3bmFp0Wli04oIbbeck" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,20 +38,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\ideaWorkspace\snake\resource" />
-    </key>
-  </component>
   <component name="RunManager">
     <configuration name="Msnake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Msnake.Msnake" />
-      <module name="snake" />
+      <module name="Msnake" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Msnake.*" />
@@ -77,74 +81,70 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="87f1c7db-2637-44a4-bda3-71e0df62b493" name="Default Changelist" comment="" />
-      <created>1577946099875</created>
+      <changelist id="44c262cb-37e4-4dce-95b1-f6a3c1fa93b5" name="Default Changelist" comment="" />
+      <created>1578222293470</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1577946099875</updated>
+      <updated>1578222293470</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="517" y="253" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1577957230870">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="552" y="183" key="#Project_Structure" timestamp="1578222397716">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="517" y="253" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1536.834@0.0.1536.834" timestamp="1577957230870" />
-    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1577950391102">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="552" y="183" key="#Project_Structure/0.0.1920.1050@0.0.1920.1050" timestamp="1578222397716" />
+    <state x="810" y="414" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578225045616">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1577950391102" />
-    <state x="522" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1577957371563">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="810" y="414" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1578225045616" />
+    <state x="540" y="180" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1578225042944">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="522" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.834@0.0.1536.834" timestamp="1577957371563" />
-    <state x="570" y="158" key="FileChooserDialogImpl" timestamp="1577955614368">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="540" y="180" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1578225042944" />
+    <state x="598" y="118" key="CommitChangelistDialog2" timestamp="1578225185395">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="570" y="158" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1577955614368" />
-    <state width="1493" height="206" key="GridCell.Tab.0.bottom" timestamp="1577957827292">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="598" y="118" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1578225185395" />
+    <state x="806" y="364" key="FileChooserDialogImpl" timestamp="1578225040335">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1577957827292" />
-    <state width="1493" height="206" key="GridCell.Tab.0.center" timestamp="1577957827292">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="806" y="364" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1578225040335" />
+    <state width="1877" height="342" key="GridCell.Tab.0.bottom" timestamp="1578225153895">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1577957827292" />
-    <state width="1493" height="206" key="GridCell.Tab.0.left" timestamp="1577957827292">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1877" height="342" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1578225153895" />
+    <state width="1877" height="342" key="GridCell.Tab.0.center" timestamp="1578225153895">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1577957827292" />
-    <state width="1493" height="206" key="GridCell.Tab.0.right" timestamp="1577957827292">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1877" height="342" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1578225153895" />
+    <state width="1877" height="342" key="GridCell.Tab.0.left" timestamp="1578225153895">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1577957827292" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1577957827287">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1877" height="342" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1578225153895" />
+    <state width="1877" height="342" key="GridCell.Tab.0.right" timestamp="1578225153895">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1577957827287" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1577957827287">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1877" height="342" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578225153895" />
+    <state width="1877" height="342" key="GridCell.Tab.1.bottom" timestamp="1578225153739">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1577957827287" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1577957827287">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1877" height="342" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1578225153739" />
+    <state width="1877" height="342" key="GridCell.Tab.1.center" timestamp="1578225153739">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1577957827287" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1577957827287">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1877" height="342" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1578225153739" />
+    <state width="1877" height="342" key="GridCell.Tab.1.left" timestamp="1578225153739">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1577957827287" />
-    <state x="272" y="0" key="SettingsEditor" timestamp="1577957644475">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1877" height="342" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1578225153739" />
+    <state width="1877" height="342" key="GridCell.Tab.1.right" timestamp="1578225153739">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="272" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1577957644475" />
-    <state x="338" y="153" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1577953482183">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1877" height="342" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578225153739" />
+    <state x="461" y="167" key="SettingsEditor" timestamp="1578225148418">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="338" y="153" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.834@0.0.1536.834" timestamp="1577953482183" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1577957333317">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1577957333317" />
+    <state x="461" y="167" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1578225148418" />
   </component>
 </project>
